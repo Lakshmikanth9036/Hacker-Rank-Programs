@@ -21,8 +21,8 @@ public class LeftRotation {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
-		int d = 4;
+		int d = 2;
 		rotateLeft(d, list).forEach(System.out::print);
-		
+		in.close();
 	}
 }
